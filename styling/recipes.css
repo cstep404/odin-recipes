@@ -1,21 +1,47 @@
+body {
+    background-color: rgb(47, 47, 47);
+    color: white;
+}
+
 h1 {
     font-family: Helvetica, Verdana, Arial;
     font-size: 64px;
-    background-color: lightcyan;
+    background-color: darkgreen;
     text-shadow: 2px 2px 2px yellow;
+    border: 2px solid white;
 }
 
 a {
     padding: 10px;
     margin-right: 10px;
-    color: black;
-    background-color: coral;
+    color: white;
+    background-color: darkgreen;
     border: 2px solid black;
     font-weight: 700;
     text-decoration: none;
+    font-size: 1.10em;
 }
 
 img {
     height: auto;
     width: 250px;
+    border: 2px solid white;
+    border-radius: 10%;
+}
+
+h3 {
+    font-family: 'Lucida Sans', Verdana, sans-serif;
+    text-decoration: underline;
+}
+
+p {
+    font-weight: 500;
+}
+
+li {
+   font-style: italic;
+}
+
+div {
+    text-align: center;
 }
